@@ -33,15 +33,17 @@
     </div>
     <div id="mydiv">
         <div id="mydivheader">Drag to move</div>
-        <div class="popup">
-            <iframe src="">
+        <div class="popup" onclick="myfunction()"> click
+          <div class="popuptext" id="mypopup" >
+              <iframe src="">
                 <p>Your browser does not support iframes.</p>
             </iframe>
             <a href="#" class="close">X</a>
+            </div>
         </div>
     </div>
 
-    <script>
+    <!--<script>
         $(document).ready(function () {
             $(".popup").hide();
             $(".openpop").click(function (e) {
@@ -56,7 +58,7 @@
                 $(".links").fadeIn("slow");
             });
         });
-    </script>
+    </script>-->
     <script src="Scripts/draggable.js"></script>
 </body>
 </html>
