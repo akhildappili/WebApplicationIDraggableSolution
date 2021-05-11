@@ -21,8 +21,8 @@
             .popup .popuptext {
                 visibility: hidden;
                 width: 300px;
-                height: 300px;
-                background-color: #555;
+                height: 180px;
+                background-color: #ff6a00;
                 color: #fff;
                 text-align: center;
                 border-radius: 6px;
@@ -90,6 +90,10 @@
             background-color: #2196F3;
             color: #fff;
         }
+        iframe {
+            height: 200px;
+            width: 300px
+        }
     </style>
    
 </head>
@@ -103,8 +107,8 @@
             <div id="mydivheader">Drag to move</div>
             <div class="popuptext" id="myPopup">
                 
-                <iframe src="http://getbootstrap.com/" >
-                    <p>Your browser does not support iframes.</p>
+                <iframe src="http://getbootstrap.com/"  title="IframeExample">
+                    
                 </iframe>
             </div>
         </div>

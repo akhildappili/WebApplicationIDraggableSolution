@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationIDraggable", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationNewJavascript", "WebApplicationNewJavascript\WebApplicationNewJavascript.csproj", "{CF9C62CC-D183-4BDD-BB09-7F4F899D2CCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mondayJavascript", "mondayJavascript\mondayJavascript.csproj", "{AD5B6A7F-3767-40F6-A659-3F9CA0663023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF9C62CC-D183-4BDD-BB09-7F4F899D2CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF9C62CC-D183-4BDD-BB09-7F4F899D2CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF9C62CC-D183-4BDD-BB09-7F4F899D2CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5B6A7F-3767-40F6-A659-3F9CA0663023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5B6A7F-3767-40F6-A659-3F9CA0663023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5B6A7F-3767-40F6-A659-3F9CA0663023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5B6A7F-3767-40F6-A659-3F9CA0663023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
